@@ -16,7 +16,7 @@ export default {
       fontFamily : {
         "futura" : "Futura"
       }
-    },
+    }
   },
   plugins: [],
 }

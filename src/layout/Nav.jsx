@@ -2,7 +2,7 @@ import { useState } from "react";
 
 export function Nav() {
 	return (
-		<div className="bg-dark text-light p-4">
+		<div className="wrapper p-4">
 			<Mobile />
 			<Desktop />
 		</div>

@@ -4,3 +4,13 @@
     -moz-background-clip: text;
     -webkit-background-clip: text;
 }
+.wrapper{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.glow-hover{
+    transition: box-shadow .2s ease;
+}
+.glow-hover:hover{
+    box-shadow: 0 0 5px #8e68f3 , 0 0 15px #8e68f3 , 0 0 25px #8e68f3;
+}
