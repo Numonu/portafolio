@@ -1,6 +1,6 @@
 export function Hero() {
 	return (
-		<div className="px-4 pt-6 bg-[url('images/wave.svg')] bg-no-repeat bg-bottom">
+		<div className="px-4 pt-6 bg-[url('../images/wave.svg')] bg-no-repeat bg-bottom">
 			<div className="wrapper flex flex-col xl:flex-row xl:h-[30rem]">
 				<div className="flex flex-col items-center gap-8 text-center xl:w-1/2 xl:justify-center xl:items-start xl:text-start">
 					<h1 className="text-orquidea text-4xl font-bold xl:text-5xl">
@@ -15,7 +15,7 @@ export function Hero() {
                         <i className="fa-solid fa-chevron-down text-2xl absolute -right-7 top-1/2 -translate-y-1/2 group-hover:right-2 transition-[right]"></i>
 					</button>
 				</div>
-				<div className="h-72 bg-[url('images/avatar.webp')] bg-contain bg-bottom bg-no-repeat xl:w-1/2 xl:h-full"></div>
+				<div className="h-72 bg-[url('../images/avatar.webp')] bg-contain bg-bottom bg-no-repeat xl:w-1/2 xl:h-full"></div>
 			</div>
 		</div>
 	);
