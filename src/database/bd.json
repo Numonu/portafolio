@@ -2,11 +2,39 @@
     "portafolio" : {
         "web" : [
             {
-                "src" : "images/web/web01.png",
+                "src" : "images/web/juicy.webp",
                 "title" : "Juicy Typing",
                 "descripcion" : "Esta es una aplicacion web para practicar mecanografia , cuenta con animaciones y sonidos resultones",
                 "pageLink" : "https://numonu.github.io/Juicy-Typing/",
                 "sourceLink" : "https://github.com/Numonu/Juicy-Typing"
+            },
+            {
+                "src" : "images/web/tic.webp",
+                "title" : "Tic Tac Toe",
+                "descripcion" : "El clasico juego tic tac toe hecho con React",
+                "pageLink" : "https://numonu.github.io/tic-tac-toe/",
+                "sourceLink" : "https://github.com/Numonu/tic-tac-toe"
+            },
+            {
+                "src" : "images/web/super.webp",
+                "title" : "Supermarket",
+                "descripcion" : "Este es un concepto de un ecomerce para un supermercado",
+                "pageLink" : "https://numonu.github.io/supermarket/",
+                "sourceLink" : "https://github.com/Numonu/supermarket"
+            },
+            {
+                "src" : "images/web/task.webp",
+                "title" : "Task App",
+                "descripcion" : "Esta es una aplicacion de tareas hecha con React",
+                "pageLink" : "https://numonu.github.io/task-app/",
+                "sourceLink" : "https://github.com/Numonu/task-app"
+            },
+            {
+                "src" : "images/web/encrip.webp",
+                "title" : "Encriptador",
+                "descripcion" : "Este es un encriptador de texto hecho para el primer challenge de Alura Latam",
+                "pageLink" : "https://numonu.github.io/Encriptador/",
+                "sourceLink" : "https://github.com/Numonu/Encriptador"
             }
         ]
     }
