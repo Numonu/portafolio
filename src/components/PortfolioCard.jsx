@@ -3,7 +3,7 @@ export function PortfolioCard({src , title , description , pageLink , sourceLink
 		<div className="bg-dark text-light shadow-orquidea w-full rounded-lg overflow-hidden shadow-md group">
 			<div className="h-[20rem] overflow-hidden sm:h-[13rem]">
 				<img
-					className="h-full w-full object-cover xl:grayscale  xl:group-hover:grayscale-0 xl:group-hover:scale-110 transition-transform"
+					className="h-full w-full object-cover xl:group-hover:scale-110 transition-transform"
 					src={src}
 					alt={title}
 				/>
@@ -12,7 +12,7 @@ export function PortfolioCard({src , title , description , pageLink , sourceLink
 				<h1 className="mb-2 text-2xl uppercase">
                     {title}
                 </h1>
-				<p className="text-zinc-300 text-xl mb-6">
+				<p className="text-zinc-300 text-xl mb-6 tracking-wider">
 					{description}
 				</p>
 				<div className="flex flex-wrap justify-center gap-6 text-3xl sm:text-2xl">
