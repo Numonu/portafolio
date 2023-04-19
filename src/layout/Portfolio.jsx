@@ -1,3 +1,4 @@
+import { PortfolioCard } from "../components/PortfolioCard";
 import { useState } from "react";
 
 export function Portfolio() {
@@ -27,39 +28,14 @@ export function Portfolio() {
 					</div>
 				</div>
 				<div className="grid grid-cols-1 gap-6 mt-12 sm:grid-cols-2 xl:grid-cols-3">
-                    <Card title="web de ejemplo" description="esta es una web de ejemplo esta es una web de ejemplo"/>
-                    <Card title="web de ejemplo" description="esta es una web de ejemplo esta es una web de ejemplo"/>
-                </div>
-			</div>
-		</div>
-	);
-}
-
-function Card({title , description}) {
-	return (
-		<div className="bg-dark text-light shadow-orquidea w-full rounded-lg overflow-hidden shadow-md group">
-			<div className="h-[20rem] overflow-hidden sm:h-[13rem]">
-				<img
-					src="https://images.pexels.com/photos/12680345/pexels-photo-12680345.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-					className="h-full w-full object-cover xl:grayscale group-hover:grayscale-0 group-hover:scale-110 transition-transform"
-				/>
-			</div>
-			<div className="p-4">
-				<h1 className="mb-2 text-2xl uppercase">
-                    {title}
-                </h1>
-				<p className="text-zinc-300 text-xl mb-6">
-					{description}
-				</p>
-				<div className="flex flex-wrap justify-center gap-6 text-3xl sm:text-2xl">
-					<button className="bg-gradient-to-r from-left to-right px-4 py-1 rounded-sm">
-						<i className="fa-solid fa-arrow-up-right-from-square text-2xl mr-3"></i>
-						<span>visitar</span>
-					</button>
-                    <button className="bg-gradient-to-r from-left to-right px-4 py-1 rounded-sm">
-						<i className="fa-brands fa-github mr-3"></i>
-						<span>fuente</span>
-					</button>
+					<PortfolioCard
+						title="web de ejemplo"
+						description="esta es una web de ejemplo esta es una web de ejemplo"
+					/>
+					<PortfolioCard
+						title="web de ejemplo"
+						description="esta es una web de ejemplo esta es una web de ejemplo"
+					/>
 				</div>
 			</div>
 		</div>
