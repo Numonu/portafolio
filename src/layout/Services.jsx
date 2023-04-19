@@ -12,9 +12,9 @@ export function Services() {
 						description="Ofrezco servicios de desarrollo web que garantizan sitios web completamente responsivos, con la mejor calidad visual y de estilo. Además, me aseguro de que el diseño sea óptimo para una experiencia de usuario excelente."
 					/>
 					<ServiceCard
-						icon={<i className="fa-solid fa-mobile-screen"></i>}
-						title="Desarrollo de Apps Moviles"
-						description="Ofrezco servicios de desarrollo de aplicaciones móviles de alta calidad que se adaptan perfectamente a tus necesidades. Me enfoco en crear aplicaciones móviles atractivas y fáciles de usar con una experiencia de usuario óptima."
+						icon={<i className="fa-solid fa-cube"></i>}
+						title="Diseño y Modelado 3D"
+						description="Ofrezco servicios de diseño y modelado 3D que garantizan modelos, con la mejor calidad visual y de estilo. Además, me aseguro de que el diseño cumpla con los requisitos específicos de cada proyecto. Mi enfoque se centra en ofrecer soluciones de diseño personalizadas y originales"
 					/>
 					<ServiceCard
 						icon={<i className="fa-solid fa-gamepad"></i>}

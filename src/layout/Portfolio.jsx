@@ -4,7 +4,7 @@ import { useState } from "react";
 import db from "../database/bd.json";
 
 export function Portfolio() {
-	const [active, setActive] = useState(0);
+	const [active, setActive] = useState(2);
 	return (
 		<div className="bg-light" id="portfolio">
 			<div className="wrapper p-4 py-12">
