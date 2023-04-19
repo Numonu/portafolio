@@ -24,7 +24,7 @@ export function Footer() {
 				</div>
 				<h2>
 					<i className="fa-regular fa-copyright mr-2"></i>
-					2023 all right reserved
+					2023 all rights reserved
 				</h2>
 			</div>
 		</footer>
