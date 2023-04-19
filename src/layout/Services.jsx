@@ -31,7 +31,7 @@ function Card({ icon, title, description }) {
 				<div className="bg-light text-orquidea w-16 aspect-square flex items-center justify-center shrink-0 rounded-full text-4xl">
 					{icon}
 				</div>
-				<h1 className="text-3xl text-center uppercase">{title}</h1>
+				<h1 className="text-2xl text-center uppercase">{title}</h1>
 			</header>
 			<p className="text-zinc-300 text-2xl">{description}</p>
 		</div>
