@@ -6,7 +6,7 @@ import db from "../database/bd.json";
 export function Portfolio() {
 	const [active, setActive] = useState(0);
 	return (
-		<div className="bg-light">
+		<div className="bg-light" id="portfolio">
 			<div className="wrapper p-4 py-12">
 				<div className="flex justify-between flex-wrap gap-y-4">
 					<h1 className="text-dark text-4xl">Portafolio..</h1>
@@ -72,7 +72,6 @@ function GameGroup() {
 						title={e.title}
 						description={e.descripcion}
 						pageLink={e.pageLink}
-						sourceLink={e.sourceLink}
 					/>
 				);
 			})}

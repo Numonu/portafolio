@@ -2,7 +2,7 @@ import { ExperienceChip } from "../components/ExperienceChip";
 
 export function Experience() {
 	return (
-		<div className="bg-dark">
+		<div className="bg-dark" id="experience">
 			<div className="wrapper p-4 pb-12">
 				<h1 className="text-light text-4xl text-center mb-12">
 					Experiencia..

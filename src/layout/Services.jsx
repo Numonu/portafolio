@@ -2,7 +2,7 @@ import { ServiceCard } from "../components/ServiceCard";
 
 export function Services() {
 	return (
-		<div className="bg-dark text-light">
+		<div className="bg-dark text-light" id="services">
 			<div className="wrapper p-4 py-12">
 				<h1 className="text-4xl text-center xl:py-6">Servicios..</h1>
 				<div className="flex flex-col flex-wrap gap-12 py-6 xl:flex-row xl:justify-center">

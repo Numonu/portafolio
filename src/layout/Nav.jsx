@@ -26,11 +26,11 @@ function Mobile() {
 			{renderMenu && (
 				<ul className="space-y-2 text-2xl xl:hidden">
 					<Link content="inicio" href="#" />
-					<Link content="sobre mi" href="#" />
-					<Link content="servicios" href="#" />
-					<Link content="experiencia" href="#" />
-					<Link content="portafolio" href="#" />
-					<Link content="contacto" href="#" />
+					<Link content="sobre mi" href="#about" />
+					<Link content="servicios" href="#services" />
+					<Link content="experiencia" href="#experience" />
+					<Link content="portafolio" href="#portfolio" />
+					<Link content="contacto" href="#contact" />
 				</ul>
 			)}
 		</>
@@ -44,11 +44,11 @@ function Desktop() {
 			</h1>
 			<ul className="flex gap-6 text-2xl">
 				<Link content="inicio" href="#" />
-				<Link content="sobre mi" href="#" />
-				<Link content="servicios" href="#" />
-				<Link content="experiencia" href="#" />
-				<Link content="portafolio" href="#" />
-				<Link content="contacto" href="#" />
+				<Link content="sobre mi" href="#about" />
+				<Link content="servicios" href="#services" />
+				<Link content="experiencia" href="#experience" />
+				<Link content="portafolio" href="#portfolio" />
+				<Link content="contacto" href="#contact" />
 			</ul>
 		</div>
 	);
