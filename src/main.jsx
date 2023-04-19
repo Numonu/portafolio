@@ -7,6 +7,7 @@ import { Nav } from "./layout/Nav";
 import { Experience } from "./layout/Experience";
 import "./styles/tailwind.css";
 import { Portfolio } from "./layout/Portfolio";
+import { Footer } from "./layout/Footer";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
 	<React.StrictMode>
@@ -20,5 +21,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 			<Experience/>
 			<Portfolio/>
 		</main>
+		<Footer/>
 	</React.StrictMode>
 );
