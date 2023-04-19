@@ -1,7 +1,7 @@
 export function About() {
 	return (
 		<div className="bg-light world">
-			<div className="wrapper max-w-[1000px] p-4 flex flex-col justify-center items-center gap-6 xl:flex-row xl:py-16">
+			<div className="wrapper max-w-[1000px] p-4 py-12 flex flex-col justify-center items-center gap-6 xl:flex-row xl:py-16">
 				<h1 className="text-orquidea text-3xl font-bold xl:hidden">
 					Sobre Mi..
 				</h1>
