@@ -52,11 +52,11 @@ function Card({title , description}) {
 					{description}
 				</p>
 				<div className="flex flex-wrap justify-center gap-6 text-3xl sm:text-2xl">
-					<button className="bg-gradient-to-r from-left to-right px-4 py-2 rounded-xl">
+					<button className="bg-gradient-to-r from-left to-right px-4 py-1 rounded-sm">
 						<i className="fa-solid fa-arrow-up-right-from-square text-2xl mr-3"></i>
 						<span>visitar</span>
 					</button>
-                    <button className="bg-gradient-to-r from-left to-right px-4 py-2 rounded-xl">
+                    <button className="bg-gradient-to-r from-left to-right px-4 py-1 rounded-sm">
 						<i className="fa-brands fa-github mr-3"></i>
 						<span>fuente</span>
 					</button>
