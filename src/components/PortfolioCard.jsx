@@ -1,10 +1,11 @@
-export function PortfolioCard({title , description}) {
+export function PortfolioCard({src , title , description , pageLink , sourceLink}) {
 	return (
 		<div className="bg-dark text-light shadow-orquidea w-full rounded-lg overflow-hidden shadow-md group">
 			<div className="h-[20rem] overflow-hidden sm:h-[13rem]">
 				<img
-					src="https://images.pexels.com/photos/12680345/pexels-photo-12680345.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 					className="h-full w-full object-cover xl:grayscale group-hover:grayscale-0 xl:group-hover:scale-110 transition-transform"
+					src={src}
+					alt={title}
 				/>
 			</div>
 			<div className="p-4">
@@ -17,11 +18,11 @@ export function PortfolioCard({title , description}) {
 				<div className="flex flex-wrap justify-center gap-6 text-3xl sm:text-2xl">
 					<button className="bg-gradient-to-r from-left to-right px-4 py-1 rounded-sm">
 						<i className="fa-solid fa-arrow-up-right-from-square text-2xl mr-3"></i>
-						<span>visitar</span>
+						<a href={pageLink || "#"} target="_blank">visitar</a>
 					</button>
                     <button className="bg-gradient-to-r from-left to-right px-4 py-1 rounded-sm">
 						<i className="fa-brands fa-github mr-3"></i>
-						<span>fuente</span>
+						<a href={sourceLink || "#"} target="_blank">fuente</a>
 					</button>
 				</div>
 			</div>

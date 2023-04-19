@@ -1,0 +1,13 @@
+{
+    "portafolio" : {
+        "web" : [
+            {
+                "src" : "images/web/web01.png",
+                "title" : "Juicy Typing",
+                "descripcion" : "Esta es una aplicacion web para practicar mecanografia , cuenta con animaciones y sonidos resultones",
+                "pageLink" : "https://numonu.github.io/Juicy-Typing/",
+                "sourceLink" : "https://github.com/Numonu/Juicy-Typing"
+            }
+        ]
+    }
+}

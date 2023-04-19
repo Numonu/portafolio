@@ -1,6 +1,7 @@
 import { PortfolioCard } from "../components/PortfolioCard";
 import { PortfolioToggle } from "../components/PortfolioToggle";
 import { useState } from "react";
+import db from "../database/bd.json";
 
 export function Portfolio() {
 	const [active, setActive] = useState(0);
@@ -10,9 +11,24 @@ export function Portfolio() {
 				<div className="flex justify-between flex-wrap gap-y-4">
 					<h1 className="text-dark text-4xl">Portafolio..</h1>
 					<div className="text-light flex gap-2">
-                        <PortfolioToggle title="Web" value={active} valueTo={0} callback={setActive}/>
-                        <PortfolioToggle title="Juegos" value={active} valueTo={1} callback={setActive}/>
-                        <PortfolioToggle title="Todos" value={active} valueTo={2} callback={setActive}/>
+						<PortfolioToggle
+							title="Web"
+							value={active}
+							valueTo={0}
+							callback={setActive}
+						/>
+						<PortfolioToggle
+							title="Juegos"
+							value={active}
+							valueTo={1}
+							callback={setActive}
+						/>
+						<PortfolioToggle
+							title="Todos"
+							value={active}
+							valueTo={2}
+							callback={setActive}
+						/>
 					</div>
 				</div>
 				<div className="grid grid-cols-1 gap-6 mt-12 sm:grid-cols-2 xl:grid-cols-3">
@@ -32,18 +48,17 @@ export function Portfolio() {
 function WebGroup() {
 	return (
 		<>
-			<PortfolioCard
-				title="web de ejemplo"
-				description="esta es una web de ejemplo esta es una web de ejemplo"
-			/>
-			<PortfolioCard
-				title="web de ejemplo"
-				description="esta es una web de ejemplo esta es una web de ejemplo"
-			/>
-			<PortfolioCard
-				title="web de ejemplo"
-				description="esta es una web de ejemplo esta es una web de ejemplo"
-			/>
+			{db.portafolio.web.map((e) => {
+				return (
+					<PortfolioCard
+						src={e.src}
+						title={e.title}
+						description={e.descripcion}
+						pageLink={e.pageLink}
+						sourceLink={e.sourceLink}
+					/>
+				);
+			})}
 		</>
 	);
 }
