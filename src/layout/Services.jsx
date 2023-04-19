@@ -7,17 +7,17 @@ export function Services() {
 					<Card
 						icon={<i className="fa-solid fa-display"></i>}
 						title="Desarrollo de Sitios Web"
-						description="Creacion de sitios web completamente responsivos , asegurando la maxima calidad visual y de estilo asi tambien procurando un diseño responsivo de la manera mas optima posible"
+						description="Ofrezco servicios de desarrollo web que garantizan sitios web completamente responsivos, con la mejor calidad visual y de estilo. Además, me aseguro de que el diseño sea óptimo para una experiencia de usuario excelente."
 					/>
                     <Card
 						icon={<i className="fa-solid fa-mobile-screen"></i>}
 						title="Desarrollo de Apps Moviles"
-						description="Creacion de sitios web completamente responsivos , asegurando la maxima calidad visual y de estilo asi tambien procurando un diseño responsivo de la manera mas optima posible"
+						description="Ofrezco servicios de desarrollo de aplicaciones móviles de alta calidad que se adaptan perfectamente a tus necesidades. Me enfoco en crear aplicaciones móviles atractivas y fáciles de usar con una experiencia de usuario óptima."
 					/>
                     <Card
 						icon={<i className="fa-solid fa-gamepad"></i>}
 						title="Desarrollo de Videojuegos"
-						description="Creacion de sitios web completamente responsivos , asegurando la maxima calidad visual y de estilo asi tambien procurando un diseño responsivo de la manera mas optima posible"
+						description="Ofrezco servicios de desarrollo de videojuegos de alta calidad, enfocados en crear experiencias de juego emocionantes e interactivas. Mi enfoque se centra en el diseño de juegos atractivos con una jugabilidad fluida y una experiencia de usuario inolvidable."
 					/>
 				</div>
 			</div>
