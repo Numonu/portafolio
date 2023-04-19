@@ -3,7 +3,7 @@ export function PortfolioCard({src , title , description , pageLink , sourceLink
 		<div className="bg-dark text-light shadow-orquidea w-full rounded-lg overflow-hidden shadow-md group">
 			<div className="h-[20rem] overflow-hidden sm:h-[13rem]">
 				<img
-					className="h-full w-full object-cover xl:grayscale group-hover:grayscale-0 xl:group-hover:scale-110 transition-transform"
+					className="h-full w-full object-cover xl:grayscale  xl:group-hover:grayscale-0 xl:group-hover:scale-110 transition-transform"
 					src={src}
 					alt={title}
 				/>
@@ -16,11 +16,11 @@ export function PortfolioCard({src , title , description , pageLink , sourceLink
 					{description}
 				</p>
 				<div className="flex flex-wrap justify-center gap-6 text-3xl sm:text-2xl">
-					<button className="bg-gradient-to-r from-left to-right px-4 py-1 rounded-sm">
+					<button className="bg-gradient-to-r from-left to-right px-4 py-1 rounded-sm hover:outline outline-light">
 						<i className="fa-solid fa-arrow-up-right-from-square text-2xl mr-3"></i>
 						<a href={pageLink || "#"} target="_blank">visitar</a>
 					</button>
-                    <button className="bg-gradient-to-r from-left to-right px-4 py-1 rounded-sm">
+                    <button className="bg-gradient-to-r from-left to-right px-4 py-1 rounded-sm hover:outline outline-light">
 						<i className="fa-brands fa-github mr-3"></i>
 						<a href={sourceLink || "#"} target="_blank">fuente</a>
 					</button>
