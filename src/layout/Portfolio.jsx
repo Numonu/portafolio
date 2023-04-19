@@ -48,7 +48,7 @@ function Card({title , description}) {
 				<h1 className="mb-2 text-2xl uppercase">
                     {title}
                 </h1>
-				<p className="text-zinc-300 text-2xl mb-6">
+				<p className="text-zinc-300 text-xl mb-6">
 					{description}
 				</p>
 				<div className="flex flex-wrap justify-center gap-6 text-3xl sm:text-2xl">
