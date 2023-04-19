@@ -7,9 +7,9 @@ export function PortfolioCard({
 }) {
 	return (
 		<div className="bg-dark text-light w-full rounded-lg overflow-hidden group">
-			<div className="h-[20rem] overflow-hidden sm:h-[13rem] xl:grayscale xl:group-hover:grayscale-0">
+			<div className="h-[20rem] overflow-hidden sm:h-[13rem]">
 				<img
-					className="h-full w-full object-cover xl:group-hover:scale-[1.2] transition-transform"
+					className="h-full w-full object-cover xl:group-hover:scale-[1.15] transition-transform"
 					src={src}
 					alt={title}
 				/>
