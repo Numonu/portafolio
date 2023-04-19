@@ -6,6 +6,7 @@ import { Hero } from "./layout/Hero";
 import { Nav } from "./layout/Nav";
 import { Experience } from "./layout/Experience";
 import "./styles/tailwind.css";
+import { Portfolio } from "./layout/Portfolio";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
 	<React.StrictMode>
@@ -17,6 +18,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 			<About/>
 			<Services/>
 			<Experience/>
+			<Portfolio/>
 		</main>
 	</React.StrictMode>
 );
