@@ -4,7 +4,7 @@ export function PortfolioCard({title , description}) {
 			<div className="h-[20rem] overflow-hidden sm:h-[13rem]">
 				<img
 					src="https://images.pexels.com/photos/12680345/pexels-photo-12680345.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-					className="h-full w-full object-cover xl:grayscale group-hover:grayscale-0 group-hover:scale-110 transition-transform"
+					className="h-full w-full object-cover xl:grayscale group-hover:grayscale-0 xl:group-hover:scale-110 transition-transform"
 				/>
 			</div>
 			<div className="p-4">

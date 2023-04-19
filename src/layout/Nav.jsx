@@ -42,7 +42,7 @@ function Desktop() {
 			<h1 className="text-3xl font-bold gradient-text bg-gradient-to-r from-left to-right">
 				Numonu
 			</h1>
-			<ul className="flex gap-6 text-xl">
+			<ul className="flex gap-6 text-2xl">
 				<Link content="inicio" href="#" />
 				<Link content="sobre mi" href="#" />
 				<Link content="servicios" href="#" />
