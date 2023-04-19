@@ -2,7 +2,7 @@ export function Experience() {
 	return (
 		<div className="bg-dark">
 			<div className="wrapper p-4 pb-12">
-				<h1 className="text-light text-4xl text-center mb-12 xl:text-5xl">
+				<h1 className="text-light text-4xl text-center mb-12">
 					Experiencia..
 				</h1>
 				<div className="flex flex-wrap justify-center gap-20 sm:w-[60%] sm:mx-auto xl:w-[50%]">
