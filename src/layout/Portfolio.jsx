@@ -31,7 +31,7 @@ export function Portfolio() {
 						/>
 					</div>
 				</div>
-				<div className="grid grid-cols-1 gap-6 mt-12 sm:grid-cols-2 xl:grid-cols-3">
+				<div className="grid grid-cols-1 gap-12 mt-12 sm:grid-cols-2 xl:grid-cols-3">
 					{active == 0 && <WebGroup />}
 					{active == 1 && <GameGroup />}
 					{active > 1 && (
