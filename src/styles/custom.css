@@ -1,16 +1,24 @@
-.gradient-text{
-    color : transparent;
+.gradient-text {
+    color: transparent;
     background-clip: text;
     -moz-background-clip: text;
     -webkit-background-clip: text;
 }
-.wrapper{
+
+.card {
+    /* border-image: linear-gradient(to right, #9d98f0, #ccb1e1) 1; */
+    box-shadow: 0 0 10px cyan , 0 0 20px rgb(255, 109, 255) ;
+}
+
+.wrapper {
     max-width: 1300px;
     margin: 0 auto;
 }
-.glow-hover{
+
+.glow-hover {
     transition: box-shadow .2s ease;
 }
-.glow-hover:hover{
-    box-shadow: 0 0 5px #8e68f3 , 0 0 15px #8e68f3 , 0 0 25px #8e68f3;
+
+.glow-hover:hover {
+    box-shadow: 0 0 5px #8e68f3, 0 0 15px #8e68f3, 0 0 25px #8e68f3;
 }
