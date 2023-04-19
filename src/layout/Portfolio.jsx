@@ -65,18 +65,17 @@ function WebGroup() {
 function GameGroup() {
 	return (
 		<>
-			<PortfolioCard
-				title="juego de ejemplo"
-				description="esta es un juego de ejemplo esta es un juego de ejemplo"
-			/>
-			<PortfolioCard
-				title="juego de ejemplo"
-				description="esta es un juego de ejemplo esta es un juego de ejemplo"
-			/>
-			<PortfolioCard
-				title="juego de ejemplo"
-				description="esta es un juego de ejemplo esta es un juego de ejemplo"
-			/>
+			{db.portafolio.games.map((e) => {
+				return (
+					<PortfolioCard
+						src={e.src}
+						title={e.title}
+						description={e.descripcion}
+						pageLink={e.pageLink}
+						sourceLink={e.sourceLink}
+					/>
+				);
+			})}
 		</>
 	);
 }
