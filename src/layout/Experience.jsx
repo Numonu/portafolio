@@ -1,4 +1,7 @@
 import { ExperienceChip } from "../components/ExperienceChip";
+import { SiTailwindcss } from "react-icons/si";
+import { SiFirebase } from "react-icons/si";
+import { SiBlender } from "react-icons/si";
 
 export function Experience() {
 	return (
@@ -21,12 +24,17 @@ export function Experience() {
 					<ExperienceChip
 						icon={<i className="fa-brands fa-js"></i>}
 						title="js"
-						custom="text-yellow-500"
+						custom="text-amber-400"
 					/>
 					<ExperienceChip
 						icon={<i className="fa-brands fa-react"></i>}
 						title="react"
 						custom="text-cyan-500"
+					/>
+					<ExperienceChip
+						icon={<SiFirebase/>}
+						title="firebase"
+						custom="text-amber-400"
 					/>
 					<ExperienceChip
 						icon={<i className="fa-brands fa-git-alt"></i>}
@@ -44,7 +52,7 @@ export function Experience() {
 						custom="text-pink-500"
 					/>
 					<ExperienceChip
-						icon={<i className="fa-solid fa-code"></i>}
+						icon={<SiTailwindcss/>}
 						title="tailwind"
 						custom="text-emerald-500"
 					/>
@@ -52,6 +60,11 @@ export function Experience() {
 						icon={<i className="fa-brands fa-unity"></i>}
 						title="unity"
 						custom="text-light"
+					/>
+					<ExperienceChip
+						icon={<SiBlender/>}
+						title="blender"
+						custom="text-orange-500"
 					/>
 				</div>
 			</div>
