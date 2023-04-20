@@ -56,6 +56,7 @@ function WebGroup() {
 						description={e.descripcion}
 						pageLink={e.pageLink}
 						sourceLink={e.sourceLink}
+						skills={e.skills}
 					/>
 				);
 			})}
@@ -72,6 +73,7 @@ function GameGroup() {
 						title={e.title}
 						description={e.descripcion}
 						pageLink={e.pageLink}
+						skills={e.skills}
 					/>
 				);
 			})}

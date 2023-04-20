@@ -6,35 +6,40 @@
                 "title" : "Juicy Typing",
                 "descripcion" : "Esta es una aplicacion web para practicar mecanografia",
                 "pageLink" : "https://numonu.github.io/Juicy-Typing/",
-                "sourceLink" : "https://github.com/Numonu/Juicy-Typing"
+                "sourceLink" : "https://github.com/Numonu/Juicy-Typing",
+                "skills" : ["html","css","js"]
             },
             {
                 "src" : "images/web/tic.webp",
                 "title" : "Tic Tac Toe",
                 "descripcion" : "El clasico juego tic tac toe hecho con React",
                 "pageLink" : "https://numonu.github.io/tic-tac-toe/",
-                "sourceLink" : "https://github.com/Numonu/tic-tac-toe"
+                "sourceLink" : "https://github.com/Numonu/tic-tac-toe",
+                "skills" : ["vite","react","sass"]
             },
             {
                 "src" : "images/web/super.webp",
                 "title" : "Supermarket",
                 "descripcion" : "Este es un concepto de un ecomerce para un supermercado",
                 "pageLink" : "https://numonu.github.io/supermarket/",
-                "sourceLink" : "https://github.com/Numonu/supermarket"
+                "sourceLink" : "https://github.com/Numonu/supermarket",
+                "skills" : ["vite","react"]
             },
             {
                 "src" : "images/web/task.webp",
                 "title" : "Task App",
                 "descripcion" : "Esta es una aplicacion de tareas hecha con React",
                 "pageLink" : "https://numonu.github.io/task-app/",
-                "sourceLink" : "https://github.com/Numonu/task-app"
+                "sourceLink" : "https://github.com/Numonu/task-app",
+                "skills" : ["vite","react"]
             },
             {
                 "src" : "images/web/encrip.webp",
                 "title" : "Encriptador",
                 "descripcion" : "Este es un encriptador de texto hecho para el primer challenge de Alura Latam",
                 "pageLink" : "https://numonu.github.io/Encriptador/",
-                "sourceLink" : "https://github.com/Numonu/Encriptador"
+                "sourceLink" : "https://github.com/Numonu/Encriptador",
+                "skills" : ["html","css","js"]
             }
         ],
         "games" : [
@@ -43,21 +48,24 @@
                 "title" : "Rocket Lite 3",
                 "descripcion" : "Este es un juego Shoot'em up de naves en el espacio",
                 "pageLink" : "https://juan-villegas.itch.io/rocket-lite-remake",
-                "sourceLink" : "#"
+                "sourceLink" : "#",
+                "skills" : ["c#","unity"]
             },
             {
                 "src" : "images/games/fc.png",
                 "title" : "Food Crush",
                 "descripcion" : "Juego clicker de precision y habilidad visual",
                 "pageLink" : "https://juan-villegas.itch.io/food-crush",
-                "sourceLink" : "#"
+                "sourceLink" : "#",
+                "skills" : ["c#","unity"]
             },
             {
                 "src" : "images/games/fcj.png",
                 "title" : "Food Crush Jam",
                 "descripcion" : "Una version con graficos mejorados de Food Crush",
                 "pageLink" : "https://juan-villegas.itch.io/food-crush-jam",
-                "sourceLink" : "#"
+                "sourceLink" : "#",
+                "skills" : ["c#","unity"]
             }
         ]
     }
