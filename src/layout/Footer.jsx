@@ -1,7 +1,7 @@
 export function Footer() {
 	return (
 		<footer className="bg-dark" id="contact">
-			<div className="text-light wrapper flex flex-col items-center gap-12 py-12 text-2xl font-medium lg:flex-row lg:justify-between">
+			<div className="text-light wrapper flex flex-col items-center gap-12 p-4 py-12 text-2xl font-medium lg:flex-row lg:justify-between">
 				<div>
 					<h1 className="text-4xl mb-4 font-bold gradient-text bg-gradient-to-r from-left to-right">
 						Pasa a saludar!
