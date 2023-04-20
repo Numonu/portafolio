@@ -51,6 +51,7 @@ function WebGroup() {
 			{db.portafolio.web.map((e) => {
 				return (
 					<PortfolioCard
+						key={e.title}
 						src={e.src}
 						title={e.title}
 						description={e.descripcion}
@@ -69,6 +70,7 @@ function GameGroup() {
 			{db.portafolio.games.map((e) => {
 				return (
 					<PortfolioCard
+						key={e.title}
 						src={e.src}
 						title={e.title}
 						description={e.descripcion}

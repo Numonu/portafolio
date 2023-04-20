@@ -34,7 +34,7 @@ export function PortfolioCard({
 					{sourceLink && (
 						<a href={sourceLink} target="_blank">
 							<button className="bg-orquidea px-4 py-1 rounded-md hover:outline outline-light">
-							<i class="fa-brands fa-github text-2xl mr-3"></i>
+							<i className="fa-brands fa-github text-2xl mr-3"></i>
 								fuente
 							</button>
 						</a>
