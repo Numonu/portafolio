@@ -7,7 +7,7 @@ export function About() {
 				</h1>
 				<div className="relative w-[80%] aspect-square overflow-hidden rounded-xl border-b-8 border-orquidea sm:w-[50%]">
 					<img
-						src="images/profile.png"
+						src="images/profile.webp"
 						alt="Juan Villegas"
 						className="absolute inset-0 hover:scale-110 transition-transform"
 					/>
