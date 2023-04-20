@@ -16,7 +16,7 @@ export function PortfolioCard({
 				/>
 			</div>
 			<div className="p-4">
-				<h2 className="text-light opacity- text-xl uppercase tracking-[0.2rem] xl:text-sm xl:mb-2">
+				<h2 className="text-light text-xl uppercase tracking-[0.2rem] xl:text-base xl:mb-2">
 					{skills.join("•")}
 				</h2>
 				<h1 className="text-orquidea text-3xl capitalize xl:text-2xl">{title}</h1>
