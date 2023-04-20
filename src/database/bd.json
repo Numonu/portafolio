@@ -15,7 +15,7 @@
                 "descripcion" : "El clasico juego tic tac toe hecho con React",
                 "pageLink" : "https://numonu.github.io/tic-tac-toe/",
                 "sourceLink" : "https://github.com/Numonu/tic-tac-toe",
-                "skills" : ["vite","react","css"]
+                "skills" : ["vite","react"]
             },
             {
                 "src" : "images/web/super.webp",
@@ -23,7 +23,7 @@
                 "descripcion" : "Este es un concepto de un ecomerce para un supermercado",
                 "pageLink" : "https://numonu.github.io/supermarket/",
                 "sourceLink" : "https://github.com/Numonu/supermarket",
-                "skills" : ["vite","react","css"]
+                "skills" : ["vite","react"]
             },
             {
                 "src" : "images/web/task.webp",
@@ -31,7 +31,7 @@
                 "descripcion" : "Esta es una aplicacion de tareas hecha con React",
                 "pageLink" : "https://numonu.github.io/task-app/",
                 "sourceLink" : "https://github.com/Numonu/task-app",
-                "skills" : ["vite","react","css"]
+                "skills" : ["vite","react"]
             },
             {
                 "src" : "images/web/encrip.webp",
