@@ -2,6 +2,13 @@
     "portafolio" : {
         "web" : [
             {
+                "src" : "images/web/chat.webp",
+                "title" : "Global Chat",
+                "descripcion" : "Esta es una aplicacion web con salas de chat globales",
+                "pageLink" : "https://global-chat-ebdb4.web.app",
+                "skills" : ["react","tailwind","firebase"]
+            },
+            {
                 "src" : "images/web/juicy.webp",
                 "title" : "Juicy Typing",
                 "descripcion" : "Esta es una aplicacion web para practicar mecanografia",
