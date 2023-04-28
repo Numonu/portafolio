@@ -2,6 +2,14 @@
     "portafolio" : {
         "web" : [
             {
+                "src" : "images/web/neon.webp",
+                "title" : "Neon Landing Page",
+                "descripcion" : "Esta es una landing page animada con estetica Neon",
+                "pageLink" : "https://numonu.github.io/neon-landing-page/",
+                "sourceLink" : "https://github.com/Numonu/neon-landing-page",
+                "skills" : ["react","tailwind"]
+            },
+            {
                 "src" : "images/web/chat.webp",
                 "title" : "Global Chat",
                 "descripcion" : "Esta es una aplicacion web con salas de chat globales",
@@ -22,14 +30,6 @@
                 "descripcion" : "El clasico juego tic tac toe hecho con React",
                 "pageLink" : "https://numonu.github.io/tic-tac-toe/",
                 "sourceLink" : "https://github.com/Numonu/tic-tac-toe",
-                "skills" : ["vite","react"]
-            },
-            {
-                "src" : "images/web/super.webp",
-                "title" : "Supermarket",
-                "descripcion" : "Este es un concepto de un ecomerce para un supermercado",
-                "pageLink" : "https://numonu.github.io/supermarket/",
-                "sourceLink" : "https://github.com/Numonu/supermarket",
                 "skills" : ["vite","react"]
             },
             {
