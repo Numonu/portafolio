@@ -33,12 +33,12 @@
                 "skills" : ["vite","react"]
             },
             {
-                "src" : "images/web/task.webp",
-                "title" : "Task App",
-                "descripcion" : "Esta es una aplicacion de tareas hecha con React",
-                "pageLink" : "https://numonu.github.io/task-app/",
-                "sourceLink" : "https://github.com/Numonu/task-app",
-                "skills" : ["vite","react"]
+                "src" : "images/web/info.webp",
+                "title" : "Info App",
+                "descripcion" : "Esta es una landing page para presentaciones y eventos",
+                "pageLink" : "https://numonu.github.io/info-landing-page/",
+                "sourceLink" : "https://github.com/Numonu/info-landing-page",
+                "skills" : ["vite","react","tailwind"]
             },
             {
                 "src" : "images/web/encrip.webp",
