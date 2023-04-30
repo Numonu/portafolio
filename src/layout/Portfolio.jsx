@@ -23,6 +23,13 @@ export function Portfolio() {
 							valueTo={1}
 							callback={setActive}
 						/>
+						<PortfolioToggle 
+							title="3D" 
+							valueTo={3} 
+							callback={() => {
+								window.location.href = "https://www.instagram.com/villegas.arts/";
+							}}
+						/>
 						<PortfolioToggle
 							title="Todos"
 							value={active}

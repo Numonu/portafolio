@@ -4,11 +4,11 @@ export function Hero() {
 			<div className="wrapper flex flex-col xl:flex-row xl:h-[30rem]">
 				<div className="flex flex-col items-center gap-8 text-center xl:w-1/2 xl:justify-center xl:items-start xl:text-start">
 					<h1 className="text-orquidea text-4xl font-bold xl:text-5xl">
-						Juan David Villegas
+						Front-End Web Developer
 					</h1>
 					<p className="text-light text-2xl sm:w-[70%] xl:w-full">
 						Hola! , me llamo Juan David soy desarrollador de
-						software especializado en el desarrollo de web front-end
+						software especializado en desarrollo web front-end
 					</p>
 					<button className="bg-orquidea uppercase text-2xl px-4 py-2 rounded-full glow-hover relative group overflow-hidden transition-[width]">
 						<a href="#contact" className="group-hover:mr-6 transition-[margin]">

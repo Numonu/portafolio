@@ -4,7 +4,7 @@
             {
                 "src" : "images/web/neon.webp",
                 "title" : "Neon Landing Page",
-                "descripcion" : "Esta es una landing page animada con estetica Neon",
+                "descripcion" : "Template de una landing page animada con una estetica Neon",
                 "pageLink" : "https://numonu.github.io/neon-landing-page/",
                 "sourceLink" : "https://github.com/Numonu/neon-landing-page",
                 "skills" : ["react","tailwind"]
@@ -12,14 +12,14 @@
             {
                 "src" : "images/web/chat.webp",
                 "title" : "Global Chat",
-                "descripcion" : "Esta es una aplicacion web con salas de chat globales",
+                "descripcion" : "Aplicacion de chat en tiempo real con salas globales",
                 "pageLink" : "https://global-chat-ebdb4.web.app",
                 "skills" : ["react","tailwind","firebase"]
             },
             {
                 "src" : "images/web/juicy.webp",
                 "title" : "Juicy Typing",
-                "descripcion" : "Esta es una aplicacion web para practicar mecanografia",
+                "descripcion" : "Aplicacion web para practicar mecanografia",
                 "pageLink" : "https://numonu.github.io/Juicy-Typing/",
                 "sourceLink" : "https://github.com/Numonu/Juicy-Typing",
                 "skills" : ["html","css","js"]
@@ -27,7 +27,7 @@
             {
                 "src" : "images/web/tic.webp",
                 "title" : "Tic Tac Toe",
-                "descripcion" : "El clasico juego tic tac toe hecho con React",
+                "descripcion" : "Juego Tic Tac Toe hecho con React",
                 "pageLink" : "https://numonu.github.io/tic-tac-toe/",
                 "sourceLink" : "https://github.com/Numonu/tic-tac-toe",
                 "skills" : ["vite","react"]
@@ -35,7 +35,7 @@
             {
                 "src" : "images/web/info.webp",
                 "title" : "Info App",
-                "descripcion" : "Esta es una landing page para presentaciones y eventos",
+                "descripcion" : "Template de una anding page para presentaciones y eventos",
                 "pageLink" : "https://numonu.github.io/info-landing-page/",
                 "sourceLink" : "https://github.com/Numonu/info-landing-page",
                 "skills" : ["vite","react","tailwind"]
@@ -43,7 +43,7 @@
             {
                 "src" : "images/web/encrip.webp",
                 "title" : "Encriptador",
-                "descripcion" : "Este es un encriptador de texto hecho para el primer challenge de Alura Latam",
+                "descripcion" : "Encriptador de texto hecho para el primer challenge de Alura Latam",
                 "pageLink" : "https://numonu.github.io/Encriptador/",
                 "sourceLink" : "https://github.com/Numonu/Encriptador",
                 "skills" : ["html","css","js"]
@@ -53,7 +53,7 @@
             {
                 "src" : "images/games/rl.png",
                 "title" : "Rocket Lite 3",
-                "descripcion" : "Este es un juego Shoot'em up de naves en el espacio",
+                "descripcion" : "Juego Shoot'em up de naves en el espacio",
                 "pageLink" : "https://juan-villegas.itch.io/rocket-lite-remake",
                 "sourceLink" : "#",
                 "skills" : ["c#","unity"]
@@ -69,7 +69,7 @@
             {
                 "src" : "images/games/fcj.png",
                 "title" : "Food Crush Jam",
-                "descripcion" : "Una version con graficos mejorados de Food Crush",
+                "descripcion" : "Juego clicker de precision y habilidad visual con graficos mejorados",
                 "pageLink" : "https://juan-villegas.itch.io/food-crush-jam",
                 "sourceLink" : "#",
                 "skills" : ["c#","unity"]
