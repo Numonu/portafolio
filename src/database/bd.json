@@ -30,7 +30,7 @@
                 "descripcion" : "Juego Tic Tac Toe hecho con React",
                 "pageLink" : "https://numonu.github.io/tic-tac-toe/",
                 "sourceLink" : "https://github.com/Numonu/tic-tac-toe",
-                "skills" : ["vite","react"]
+                "skills" : ["css","react"]
             },
             {
                 "src" : "images/web/colors.webp",
