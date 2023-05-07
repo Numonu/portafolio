@@ -47,8 +47,8 @@ export function Hero() {
 				</div>
 				<motion.div
 					className="h-72 bg-[url('../images/avatar.webp')] bg-contain bg-bottom bg-no-repeat xl:w-1/2 xl:h-full"
-					initial={{ scale : 0 , transformOrigin: "bottom" }}
-					animate={{ scale: 1}}
+					initial={{ transformOrigin: "bottom" }}
+					animate={{ scale: [0, 1.1 ,1]}}
 					transition={{ delay: 1.6 }}
 				></motion.div>
 			</div>
