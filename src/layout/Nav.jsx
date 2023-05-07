@@ -43,12 +43,12 @@ function Desktop() {
 				Numonu
 			</h1>
 			<ul className="flex gap-6 text-2xl">
-				<Link content="inicio" href="#" />
-				<Link content="sobre mi" href="#about" />
-				<Link content="servicios" href="#services" />
-				<Link content="experiencia" href="#experience" />
-				<Link content="portafolio" href="#portfolio" />
-				<Link content="contacto" href="#contact" />
+				<Link content="inicio" href="#" delay={.5}/>
+				<Link content="sobre mi" href="#about" delay={.6}/>
+				<Link content="servicios" href="#services" delay={.7}/>
+				<Link content="experiencia" href="#experience" delay={.8}/>
+				<Link content="portafolio" href="#portfolio" delay={.9}/>
+				<Link content="contacto" href="#contact" delay={1}/>
 			</ul>
 		</div>
 	);
