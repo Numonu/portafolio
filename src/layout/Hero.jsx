@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
 
 const motionReveal = {
-	hidden : {opacity: 0, y: 150},
-	show : {opacity: 1, y: 0},
+	hidden : {opacity: 0, y: 150 , scale : 2},
+	show : {opacity: 1, y: 0 , scale : 1},
 }
 
 export function Hero() {
