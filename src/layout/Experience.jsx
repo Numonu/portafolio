@@ -1,5 +1,5 @@
 import { ExperienceChip } from "../components/ExperienceChip";
-import { experienceList } from "../database/experience";
+import { experienceList } from "../database/experienceData";
 
 export function Experience() {
 	return (
@@ -9,11 +9,12 @@ export function Experience() {
 					Experiencia..
 				</h1>
 				<div className="flex flex-wrap justify-center gap-20 sm:w-[60%] sm:mx-auto xl:w-[50%]">
-					{experienceList.map((e) => (
+					{experienceList.map((e , i) => (
 						<ExperienceChip
 							icon={e.icon}
 							title={e.title}
 							custom={e.custom}
+							motionDelay={(i / 11)}
 						/>
 					))}
 				</div>
