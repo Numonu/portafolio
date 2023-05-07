@@ -54,12 +54,12 @@ function Desktop() {
 				Numonu
 			</motion.h1>
 			<ul className="flex gap-6 text-2xl">
-				<Link content="inicio" href="#" delay={0.5} />
-				<Link content="sobre mi" href="#about" delay={0.6} />
-				<Link content="servicios" href="#services" delay={0.7} />
-				<Link content="experiencia" href="#experience" delay={0.8} />
-				<Link content="portafolio" href="#portfolio" delay={0.9} />
-				<Link content="contacto" href="#contact" delay={1} />
+				<Link content="inicio" href="#" motionDelay={0.5} />
+				<Link content="sobre mi" href="#about" motionDelay={0.6} />
+				<Link content="servicios" href="#services" motionDelay={0.7} />
+				<Link content="experiencia" href="#experience" motionDelay={0.8} />
+				<Link content="portafolio" href="#portfolio" motionDelay={0.9} />
+				<Link content="contacto" href="#contact" motionDelay={1} />
 			</ul>
 		</div>
 	);
