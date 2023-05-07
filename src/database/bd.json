@@ -33,12 +33,11 @@
                 "skills" : ["vite","react"]
             },
             {
-                "src" : "images/web/info.webp",
-                "title" : "Info App",
-                "descripcion" : "Template de una anding page para presentaciones y eventos",
-                "pageLink" : "https://numonu.github.io/info-landing-page/",
-                "sourceLink" : "https://github.com/Numonu/info-landing-page",
-                "skills" : ["vite","react","tailwind"]
+                "src" : "images/web/colors.webp",
+                "title" : "Wind Colors",
+                "descripcion" : "Pagina para crear , compartir y previzualisar paletas de colores",
+                "pageLink" : "https://wind-colors.web.app",
+                "skills" : ["react","tailwind","firebase"]
             },
             {
                 "src" : "images/web/encrip.webp",
