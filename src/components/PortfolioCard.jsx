@@ -8,7 +8,7 @@ export function PortfolioCard({
 }) {
 	return (
 		<div className="text-dark w-full rounded-lg overflow-hidden group">
-			<div className="h-[20rem] m-4 mb-0  border-dashed border-2 border-orquidea overflow-hidden sm:h-[13rem]">
+			<div className="h-[20rem] m-4 mb-0 shadow-md overflow-hidden sm:h-[13rem]">
 				<img
 					className="h-full w-full object-cover xl:group-hover:scale-[1.15] transition-transform"
 					src={src}
@@ -16,7 +16,7 @@ export function PortfolioCard({
 				/>
 			</div>
 			<div className="p-4">
-				<h2 className="capitalize text-lg">
+				<h2 className="capitalize text-lg opacity-80">
 					{skills.join("•")}
 				</h2>
 				<h1 className="text-orquidea text-3xl font-medium capitalize xl:text-2xl">{title}</h1>
