@@ -47,32 +47,6 @@
                 "sourceLink" : "https://github.com/Numonu/Encriptador",
                 "skills" : ["html","css","js"]
             }
-        ],
-        "games" : [
-            {
-                "src" : "images/games/rl.png",
-                "title" : "Rocket Lite 3",
-                "descripcion" : "Juego Shoot'em up de naves en el espacio",
-                "pageLink" : "https://juan-villegas.itch.io/rocket-lite-remake",
-                "sourceLink" : "#",
-                "skills" : ["c#","unity"]
-            },
-            {
-                "src" : "images/games/fc.png",
-                "title" : "Food Crush",
-                "descripcion" : "Juego clicker de precision y habilidad visual",
-                "pageLink" : "https://juan-villegas.itch.io/food-crush",
-                "sourceLink" : "#",
-                "skills" : ["c#","unity"]
-            },
-            {
-                "src" : "images/games/fcj.png",
-                "title" : "Food Crush Jam",
-                "descripcion" : "Juego clicker de precision y habilidad visual con graficos mejorados",
-                "pageLink" : "https://juan-villegas.itch.io/food-crush-jam",
-                "sourceLink" : "#",
-                "skills" : ["c#","unity"]
-            }
         ]
     }
 }
