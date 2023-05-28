@@ -6,7 +6,7 @@ export function Footer() {
 					<h1 className="text-4xl mb-4 font-bold gradient-text bg-gradient-to-r from-left to-right">
 						Pasa a saludar!
 					</h1>
-					<div className="flex flex-row justify-around flex-wrap text-4xl">
+					<div className="flex flex-row justify-around flex-wrap text-3xl">
 						<a href="https://www.instagram.com/villegas.arts/" target="_blank">
 							<i className="fa-brands fa-instagram hover:text-orquidea cursor-pointer"></i>
 						</a>
@@ -18,7 +18,7 @@ export function Footer() {
 						</a>
 					</div>
 				</div>
-				<div className="text-center lg:-order-1">
+				<div className="text-xl text-center lg:-order-1">
 					<h2>
 						<i className="fa-solid fa-phone mr-2"></i>
 						+51 952 455 923
@@ -28,7 +28,7 @@ export function Footer() {
 						juan.villegas.dev@gmail.com
 					</h2>
 				</div>
-				<h2>
+				<h2 className="text-xl">
 					<i className="fa-regular fa-copyright mr-2"></i>
 					2023 all rights reserved
 				</h2>
