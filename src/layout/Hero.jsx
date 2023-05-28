@@ -27,7 +27,7 @@ export function Hero() {
 						variants={motionReveal}
 					>
 						Hola! , me llamo Juan David soy desarrollador de
-						software especializado en desarrollo web front-end
+						software especializado en el desarrollo de sitios web
 					</motion.p>
 					<motion.button
 						className="bg-orquidea uppercase text-2xl px-4 py-2 rounded-full glow-hover relative group overflow-hidden transition-[width]"

@@ -34,7 +34,7 @@ function Mobile() {
 					<Link content="inicio" href="#" />
 					<Link content="sobre mi" href="#about" />
 					<Link content="servicios" href="#services" />
-					<Link content="experiencia" href="#experience" />
+					<Link content="tecnologias" href="#experience" />
 					<Link content="portafolio" href="#portfolio" />
 					<Link content="contacto" href="#contact" />
 				</ul>
@@ -57,7 +57,7 @@ function Desktop() {
 				<Link content="inicio" href="#" motionDelay={0.5} />
 				<Link content="sobre mi" href="#about" motionDelay={0.6} />
 				<Link content="servicios" href="#services" motionDelay={0.7} />
-				<Link content="experiencia" href="#experience" motionDelay={0.8} />
+				<Link content="tecnologias" href="#experience" motionDelay={0.8} />
 				<Link content="portafolio" href="#portfolio" motionDelay={0.9} />
 				<Link content="contacto" href="#contact" motionDelay={1} />
 			</ul>

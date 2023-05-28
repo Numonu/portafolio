@@ -18,14 +18,7 @@ export function About() {
 					</h1>
 					<p className="text-dark text-2xl">
 						<span className="text-orquidea text-3xl">"</span>
-						Soy Juan David, un desarrollador Front-End apasionado
-						por crear experiencias digitales atractivas y
-						funcionales para los usuarios. Me especializo en HTML,
-						CSS y JavaScript, y me mantengo actualizado en las
-						últimas tendencias y herramientas del desarrollo web. Si
-						estás buscando un desarrollador comprometido y creativo,
-						no dudes en contactarme. ¡Estoy emocionado de trabajar
-						contigo en nuevos proyectos!
+						Desde que era niño, quedé fascinado por la tecnología y su capacidad para transformar vidas. Ahora, utilizo mis habilidades en programacion para dar vida a interfaces intuitivas y atractivas. Si buscas un desarrollador comprometido y creativo, estoy emocionado de colaborar contigo en nuevos proyectos y hacer que tu proyecto cobre vida en el mundo digital
 						<span className="text-orquidea text-3xl">"</span>
 					</p>
 				</div>

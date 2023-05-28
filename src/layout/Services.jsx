@@ -14,7 +14,7 @@ export function Services() {
 					<ServiceCard
 						icon={<i className="fa-solid fa-cube"></i>}
 						title="Diseño y Modelado 3D"
-						description="Ofrezco servicios de modelado y diseño 3D para ayudar a que su proyecto cobre vida. Con experiencia en la creación de modelos 3D animados y coloridos para una variedad de industrias, puedo ayudarle a visualizar su producto."
+						description="Ofrezco servicios de modelado y diseño 3D para hacer realidad su proyecto. Con amplia experiencia en el modelado digital , puedo ayudarle a visualizar su producto con calidad excepcional. ¡Hagamos que su visión cobre vida!"
 						motionDelay={.2}
 					/>
 					<ServiceCard
