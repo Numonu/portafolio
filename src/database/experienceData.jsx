@@ -1,4 +1,4 @@
-import { SiTailwindcss } from "react-icons/si";
+import { SiAstro, SiNextdotjs, SiTailwindcss } from "react-icons/si";
 import { SiFirebase } from "react-icons/si";
 import { SiBlender } from "react-icons/si";
 
@@ -22,6 +22,16 @@ export const experienceList = [
         icon : <i className="fa-brands fa-react"></i>,
         title : "react",
         custom : "text-cyan-500",
+    },
+    {
+        icon : <SiAstro/>,
+        title : "astro",
+        custom : "text-orange-500",
+    },
+    {
+        icon : <SiNextdotjs/>,
+        title : "nextjs",
+        custom : "text-neutral-50",
     },
     {
         icon : <SiFirebase/>,
