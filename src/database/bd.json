@@ -4,10 +4,18 @@
             {
                 "src" : "images/web/neon.webp",
                 "title" : "Neon Landing Page",
-                "descripcion" : "Template de una landing page animada con una estetica Neon",
+                "descripcion" : "Landing page animada para una presentacion de marca",
                 "pageLink" : "https://numonu.github.io/neon-landing-page/",
                 "sourceLink" : "https://github.com/Numonu/neon-landing-page",
                 "skills" : ["react","tailwind"]
+            },
+            {
+                "src" : "images/web/nft.webp",
+                "title" : "NFT Dashboard",
+                "descripcion" : "Landign page creada para una tienda virtual de nft's",
+                "pageLink" : "https://numonu.github.io/nft-landing-page/",
+                "sourceLink" : "https://github.com/Numonu/nft-landing-page",
+                "skills" : ["astro","react","tailwind"]
             },
             {
                 "src" : "images/web/chat.webp",
@@ -27,7 +35,7 @@
             {
                 "src" : "images/web/tic.webp",
                 "title" : "Tic Tac Toe",
-                "descripcion" : "Juego Tic Tac Toe hecho con React",
+                "descripcion" : "Juego clasico tic tac toe interactivo",
                 "pageLink" : "https://numonu.github.io/tic-tac-toe/",
                 "sourceLink" : "https://github.com/Numonu/tic-tac-toe",
                 "skills" : ["css","react"]
@@ -38,14 +46,6 @@
                 "descripcion" : "Pagina para crear , compartir y previzualisar paletas de colores",
                 "pageLink" : "https://wind-colors.web.app",
                 "skills" : ["react","tailwind","firebase"]
-            },
-            {
-                "src" : "images/web/encrip.webp",
-                "title" : "Encriptador",
-                "descripcion" : "Encriptador de texto hecho para el primer challenge de Alura Latam",
-                "pageLink" : "https://numonu.github.io/Encriptador/",
-                "sourceLink" : "https://github.com/Numonu/Encriptador",
-                "skills" : ["html","css","js"]
             }
         ]
     }
