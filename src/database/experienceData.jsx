@@ -1,25 +1,28 @@
 import { SiAstro, SiNextdotjs, SiTailwindcss } from "react-icons/si";
-import { SiFirebase } from "react-icons/si";
-import { SiBlender } from "react-icons/si";
+import { SiFirebase , SiJavascript , SiBlender } from "react-icons/si";
+import {AiFillHtml5 , AiOutlineGithub} from "react-icons/ai";
+import {FaCss3Alt , FaReact} from "react-icons/fa";
+import { BsGit , BsUnity} from "react-icons/bs";
+import {DiSass} from "react-icons/di";
 
 export const experienceList = [
 	{
-		icon: <i className="fa-brands fa-html5"></i>,
+		icon: <AiFillHtml5/>,
 		title: "html",
 		custom: "text-orange-500",
 	},
 	{
-		icon: <i className="fa-brands fa-css3-alt"></i>,
+		icon: <FaCss3Alt/>,
 		title: "css",
 		custom: "text-cyan-500",
 	},
     {
-		icon: <i className="fa-brands fa-js"></i>,
+		icon: <SiJavascript/>,
 		title: "js",
 		custom: "text-amber-400",
 	},
     {
-        icon : <i className="fa-brands fa-react"></i>,
+        icon : <FaReact/>,
         title : "react",
         custom : "text-cyan-500",
     },
@@ -39,17 +42,17 @@ export const experienceList = [
         custom : "text-amber-400",
     },
     {
-        icon : <i className="fa-brands fa-git-alt"></i>,
+        icon : <BsGit/>,
         title : "git",
         custom : "text-red-500",
     },
     {
-        icon : <i className="fa-brands fa-github"></i>,
+        icon : <AiOutlineGithub/>,
         title : "github",
         custom : "text-zinc-500",
     },
     {
-        icon : <i className="fa-brands fa-sass"></i>,
+        icon : <DiSass/>,
         title : "sass",
         custom : "text-pink-500",
     },
@@ -59,7 +62,7 @@ export const experienceList = [
         custom : "text-emerald-500",
     },
     {
-        icon : <i className="fa-brands fa-unity"></i>,
+        icon : <BsUnity/>,
         title : "unity",
         custom : "text-light",
     },

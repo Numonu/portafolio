@@ -1,3 +1,5 @@
+import { AiOutlineInstagram , AiFillLinkedin , AiFillGithub , AiOutlineMail , AiOutlineCopyrightCircle} from "react-icons/ai";
+import { BsFillTelephoneFill } from "react-icons/bs";
 export function Footer() {
 	return (
 		<footer className="bg-dark" id="contact">
@@ -6,30 +8,30 @@ export function Footer() {
 					<h1 className="text-4xl mb-4 font-bold gradient-text bg-gradient-to-r from-left to-right">
 						Pasa a saludar!
 					</h1>
-					<div className="flex flex-row justify-around flex-wrap text-3xl">
+					<div className="flex flex-row justify-around flex-wrap text-4xl">
 						<a href="https://www.instagram.com/villegas.arts/" target="_blank">
-							<i className="fa-brands fa-instagram hover:text-orquidea cursor-pointer"></i>
+							<AiOutlineInstagram className="hover:text-orquidea cursor-pointer"/>
 						</a>
 						<a href="https://www.linkedin.com/in/juan-villegas-dev/" target="_blank">
-							<i className="fa-brands fa-linkedin-in hover:text-orquidea cursor-pointer"></i>
+							<AiFillLinkedin className="hover:text-orquidea cursor-pointer"/>
 						</a>
 						<a href="https://github.com/Numonu" target="_blank">
-							<i className="fa-brands fa-github hover:text-orquidea cursor-pointer"></i>
+							<AiFillGithub className="hover:text-orquidea cursor-pointer"/>
 						</a>
 					</div>
 				</div>
 				<div className="text-xl text-center lg:-order-1">
 					<h2>
-						<i className="fa-solid fa-phone mr-2"></i>
+						<BsFillTelephoneFill className="inline mr-2"/>
 						+51 952 455 923
 					</h2>
 					<h2>
-						<i className="fa-regular fa-envelope mr-2"></i>
+						<AiOutlineMail className="inline mr-2"/>
 						juan.villegas.dev@gmail.com
 					</h2>
 				</div>
 				<h2 className="text-xl">
-					<i className="fa-regular fa-copyright mr-2"></i>
+					<AiOutlineCopyrightCircle className="inline mr-2"/>
 					2023 all rights reserved
 				</h2>
 			</div>
