@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import {HiOutlineDocumentText} from "react-icons/hi";
 
 const motionReveal = {
 	hidden : {opacity: 0, y: 150 , scale : 2},
@@ -37,12 +38,13 @@ export function Hero() {
 						variants={motionReveal}
 					>
 						<a
-							href="#contact"
+							href="docs/juan-cv.pdf"
+							target="_blank"
 							className="group-hover:mr-6 transition-[margin]"
 						>
-							contactame
+							abrir cv
 						</a>
-						<i className="fa-solid fa-chevron-down text-2xl absolute -right-7 top-1/2 -translate-y-1/2 group-hover:right-2 transition-[right]"></i>
+						<HiOutlineDocumentText className="text-white text-3xl absolute -right-7 top-1/2 -translate-y-1/2 group-hover:right-2 transition-[right]"/>
 					</motion.button>
 				</div>
 				<motion.div
