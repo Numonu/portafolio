@@ -9,9 +9,8 @@ export function Portfolio() {
 				<div className="flex justify-between flex-wrap gap-y-4">
 					<h1 className="text-dark text-4xl">Portafolio..</h1>
 					<div className="text-light flex gap-2">
-						<PortfolioToggle title="Web" />
+						<PortfolioToggle title="Modelos 3D" />
 						<PortfolioToggle title="Juegos" />
-						<PortfolioToggle title="3D" />
 					</div>
 				</div>
 				<div className="grid grid-cols-1 gap-12 mt-12 sm:grid-cols-2 xl:grid-cols-3">

@@ -25,6 +25,13 @@
                 "skills" : ["react","tailwind","firebase"]
             },
             {
+                "src" : "images/web/colors.webp",
+                "title" : "Wind Colors",
+                "descripcion" : "Pagina para crear , compartir y previzualisar paletas de colores",
+                "pageLink" : "https://wind-colors.web.app",
+                "skills" : ["react","tailwind","firebase"]
+            },
+            {
                 "src" : "images/web/juicy.webp",
                 "title" : "Juicy Typing",
                 "descripcion" : "Aplicacion web para practicar mecanografia",
@@ -39,13 +46,6 @@
                 "pageLink" : "https://numonu.github.io/tic-tac-toe/",
                 "sourceLink" : "https://github.com/Numonu/tic-tac-toe",
                 "skills" : ["css","react"]
-            },
-            {
-                "src" : "images/web/colors.webp",
-                "title" : "Wind Colors",
-                "descripcion" : "Pagina para crear , compartir y previzualisar paletas de colores",
-                "pageLink" : "https://wind-colors.web.app",
-                "skills" : ["react","tailwind","firebase"]
             }
         ]
     }
