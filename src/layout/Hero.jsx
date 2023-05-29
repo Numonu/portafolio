@@ -38,7 +38,7 @@ export function Hero() {
 						variants={motionReveal}
 					>
 						<a
-							href="docs/juan-cv.pdf"
+							href="docs/JuanVillegas_cv.pdf"
 							target="_blank"
 							className="group-hover:mr-6 transition-[margin]"
 						>
