@@ -8,7 +8,7 @@ export function Portfolio() {
 		<div className="bg-light" id="portfolio">
 			<div className="wrapper px-4 py-36">
 				<div className="flex justify-between flex-wrap gap-y-4">
-					<h1 className="text-dark text-4xl">Portafolio..</h1>
+					<h1 className="text-dark text-4xl">Proyectos..</h1>
 					<div className="text-light flex gap-2">
 						<Tooltip title="go to instagram" href="https://www.instagram.com/villegas.arts/">
 							<PortfolioToggle title="Modelos 3D" />

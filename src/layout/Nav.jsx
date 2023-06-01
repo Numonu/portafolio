@@ -58,7 +58,7 @@ function Desktop() {
 				<Link content="sobre mi" href="#about" motionDelay={0.6} />
 				<Link content="servicios" href="#services" motionDelay={0.7} />
 				<Link content="tecnologias" href="#experience" motionDelay={0.8} />
-				<Link content="portafolio" href="#portfolio" motionDelay={0.9} />
+				<Link content="proyectos" href="#portfolio" motionDelay={0.9} />
 				<Link content="contacto" href="#contact" motionDelay={1} />
 			</ul>
 		</div>
