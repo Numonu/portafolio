@@ -18,11 +18,12 @@
                 "skills" : ["astro","react","tailwind"]
             },
             {
-                "src" : "images/web/chat.webp",
-                "title" : "Global Chat",
-                "descripcion" : "Aplicacion de chat en tiempo real con salas globales",
-                "pageLink" : "https://global-chat-ebdb4.web.app",
-                "skills" : ["react","tailwind","firebase"]
+                "src" : "images/web/services.webp",
+                "title" : "Services Landing Page",
+                "descripcion" : "Landign page creada para un provedor de servicios",
+                "pageLink" : "https://numonu.github.io/tic-tac-toe/",
+                "sourceLink" : "https://github.com/Numonu/tic-tac-toe",
+                "skills" : ["astro","tailwind"]
             },
             {
                 "src" : "images/web/colors.webp",
@@ -32,20 +33,19 @@
                 "skills" : ["react","tailwind","firebase"]
             },
             {
+                "src" : "images/web/chat.webp",
+                "title" : "Global Chat",
+                "descripcion" : "Aplicacion de chat en tiempo real con salas globales",
+                "pageLink" : "https://global-chat-ebdb4.web.app",
+                "skills" : ["react","tailwind","firebase"]
+            },
+            {
                 "src" : "images/web/juicy.webp",
                 "title" : "Juicy Typing",
                 "descripcion" : "Aplicacion web para practicar mecanografia",
                 "pageLink" : "https://numonu.github.io/Juicy-Typing/",
                 "sourceLink" : "https://github.com/Numonu/Juicy-Typing",
                 "skills" : ["html","css","js"]
-            },
-            {
-                "src" : "images/web/tic.webp",
-                "title" : "Tic Tac Toe",
-                "descripcion" : "Juego clasico tic tac toe interactivo",
-                "pageLink" : "https://numonu.github.io/tic-tac-toe/",
-                "sourceLink" : "https://github.com/Numonu/tic-tac-toe",
-                "skills" : ["css","react"]
             }
         ]
     }
