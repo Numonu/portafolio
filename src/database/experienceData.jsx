@@ -1,4 +1,4 @@
-import { SiAstro, SiNextdotjs, SiTailwindcss } from "react-icons/si";
+import { SiAstro, SiCsharp, SiTailwindcss } from "react-icons/si";
 import { SiFirebase , SiJavascript , SiBlender } from "react-icons/si";
 import {AiFillHtml5 , AiOutlineGithub} from "react-icons/ai";
 import {FaCss3Alt , FaReact} from "react-icons/fa";
@@ -32,11 +32,6 @@ export const experienceList = [
         custom : "text-orange-500",
     },
     {
-        icon : <SiNextdotjs/>,
-        title : "nextjs",
-        custom : "text-neutral-50",
-    },
-    {
         icon : <SiFirebase/>,
         title : "firebase",
         custom : "text-amber-400",
@@ -60,6 +55,11 @@ export const experienceList = [
         icon : <SiTailwindcss/>,
         title : "tailwindcss",
         custom : "text-emerald-500",
+    },
+    {
+        icon : <SiCsharp/>,
+        title : "c-sharp",
+        custom : "text-purple-500",
     },
     {
         icon : <BsUnity/>,
