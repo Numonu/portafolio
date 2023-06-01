@@ -21,8 +21,8 @@
                 "src" : "images/web/services.webp",
                 "title" : "Services Landing Page",
                 "descripcion" : "Landign page creada para un provedor de servicios",
-                "pageLink" : "https://numonu.github.io/tic-tac-toe/",
-                "sourceLink" : "https://github.com/Numonu/tic-tac-toe",
+                "pageLink" : "https://numonu.github.io/services-landing-page/",
+                "sourceLink" : "https://github.com/Numonu/services-landing-page",
                 "skills" : ["astro","tailwind"]
             },
             {
