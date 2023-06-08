@@ -11,7 +11,7 @@ export function Services() {
 					<ServiceCard
 						icon={<FaDesktop/>}
 						title="Desarrollo"
-						description="Ofrezco servicios de desarrollo web que garantizan sitios web completamente responsivos, con la mejor calidad visual y de estilo. Además, me aseguro de que el diseño sea óptimo para una experiencia de usuario excelente."
+						description="Desarrollo que garantizan sitios web completamente responsivos, con la mejor calidad visual y de estilo. Además, me aseguro de que el diseño sea óptimo para una experiencia de usuario excelente."
 					/>
 					<ServiceCard
 						icon={<IoRocket/>}
@@ -22,7 +22,7 @@ export function Services() {
 					<ServiceCard
 						icon={<IoSettingsSharp/>}
 						title="Mantenimiento"
-						description="Ofresco servicios de mantenimiento y soporte para garantizar que los sitios web estén actualizados y funcionando correctamente. Esto implica corregir errores, solucionar problemas de compatibilidad, actualizar contenido y realizar mejoras funcionales según sea necesario"
+						description="Mantenimiento y soporte para garantizar que los sitios web estén actualizados y funcionando correctamente. Esto implica corregir errores, solucionar problemas de compatibilidad, actualizar contenido y realizar mejoras funcionales según sea necesario"
 						motionDelay={.4}
 					/>
 				</div>
