@@ -10,10 +10,10 @@ export function Portfolio() {
 				<div className="flex justify-between flex-wrap gap-y-4">
 					<h1 className="text-dark text-4xl">Proyectos..</h1>
 					<div className="text-light flex gap-2">
-						<Tooltip title="go to instagram" href="https://www.instagram.com/villegas.arts/">
+						<Tooltip title="ver en instagram" href="https://www.instagram.com/villegas.arts/">
 							<PortfolioToggle title="Modelos 3D" />
 						</Tooltip>
-						<Tooltip title="go to itchio" href="https://juan-villegas.itch.io">
+						<Tooltip title="ver en itchio" href="https://juan-villegas.itch.io">
 							<PortfolioToggle title="Juegos" />
 						</Tooltip>
 
