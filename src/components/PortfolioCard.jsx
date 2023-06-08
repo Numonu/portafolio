@@ -12,9 +12,10 @@ export function PortfolioCard({
 		<div className="text-dark w-full rounded-lg overflow-hidden group">
 			<div className="h-[20rem] m-4 mb-0 shadow-md overflow-hidden sm:h-[13rem]">
 				<img
-					className="h-full w-full object-cover xl:group-hover:scale-[1.15] transition-transform"
+					className="bg-dark h-full w-full object-cover xl:group-hover:scale-[1.15] transition-transform"
 					src={src}
 					alt={title}
+					loading="lazy"
 				/>
 			</div>
 			<div className="p-4">
