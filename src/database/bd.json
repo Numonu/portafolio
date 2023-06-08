@@ -2,6 +2,28 @@
     "portafolio" : {
         "web" : [
             {
+                "src" : "images/web/colors.webp",
+                "title" : "Wind Colors",
+                "descripcion" : "Pagina para crear , compartir y previzualisar paletas de colores",
+                "pageLink" : "https://wind-colors.web.app",
+                "skills" : ["react","tailwind","firebase"]
+            },
+            {
+                "src" : "images/web/chat.webp",
+                "title" : "Global Chat",
+                "descripcion" : "Aplicacion de chat en tiempo real con salas globales",
+                "pageLink" : "https://global-chat-ebdb4.web.app",
+                "skills" : ["react","tailwind","firebase"]
+            },
+            {
+                "src" : "images/web/juicy.webp",
+                "title" : "Juicy Typing",
+                "descripcion" : "Aplicacion web para practicar mecanografia",
+                "pageLink" : "https://numonu.github.io/Juicy-Typing/",
+                "sourceLink" : "https://github.com/Numonu/Juicy-Typing",
+                "skills" : ["html","css","js"]
+            },
+            {
                 "src" : "images/web/neon.webp",
                 "title" : "Neon Landing Page",
                 "descripcion" : "Landing page animada para una presentacion de marca",
@@ -24,28 +46,6 @@
                 "pageLink" : "https://numonu.github.io/services-landing-page/",
                 "sourceLink" : "https://github.com/Numonu/services-landing-page",
                 "skills" : ["astro","tailwind"]
-            },
-            {
-                "src" : "images/web/colors.webp",
-                "title" : "Wind Colors",
-                "descripcion" : "Pagina para crear , compartir y previzualisar paletas de colores",
-                "pageLink" : "https://wind-colors.web.app",
-                "skills" : ["react","tailwind","firebase"]
-            },
-            {
-                "src" : "images/web/chat.webp",
-                "title" : "Global Chat",
-                "descripcion" : "Aplicacion de chat en tiempo real con salas globales",
-                "pageLink" : "https://global-chat-ebdb4.web.app",
-                "skills" : ["react","tailwind","firebase"]
-            },
-            {
-                "src" : "images/web/juicy.webp",
-                "title" : "Juicy Typing",
-                "descripcion" : "Aplicacion web para practicar mecanografia",
-                "pageLink" : "https://numonu.github.io/Juicy-Typing/",
-                "sourceLink" : "https://github.com/Numonu/Juicy-Typing",
-                "skills" : ["html","css","js"]
             }
         ]
     }
