@@ -1,6 +1,6 @@
 import { ServiceCard } from "../components/ServiceCard";
-import { CgScreen } from "react-icons/cg";
-import { FaCube , FaGamepad} from "react-icons/fa";
+import { FaDesktop } from "react-icons/fa";
+import { IoSettingsSharp , IoRocket } from "react-icons/io5";
 
 export function Services() {
 	return (
@@ -9,20 +9,20 @@ export function Services() {
 				<h1 className="text-4xl text-center xl:py-6">Servicios..</h1>
 				<div className="flex flex-col flex-wrap gap-12 py-6 xl:flex-row xl:justify-center">
 					<ServiceCard
-						icon={<CgScreen/>}
-						title="Desarrollo de Sitios Web"
+						icon={<FaDesktop/>}
+						title="Desarrollo"
 						description="Ofrezco servicios de desarrollo web que garantizan sitios web completamente responsivos, con la mejor calidad visual y de estilo. Además, me aseguro de que el diseño sea óptimo para una experiencia de usuario excelente."
 					/>
 					<ServiceCard
-						icon={<FaCube/>}
-						title="Diseño y Modelado 3D"
-						description="Ofrezco servicios de modelado y diseño 3D para hacer realidad su proyecto. Con amplia experiencia en el modelado digital , puedo ayudarle a visualizar su producto con calidad excepcional. ¡Hagamos que su visión cobre vida!"
+						icon={<IoRocket/>}
+						title="Optimizacion"
+						description="Me aseguro de que tu sitio web cargue rápidamente para que los visitantes no tengan que esperar demasiado. Optimizo el código y los recursos del sitio para garantizar una carga eficiente, lo que mejora la experiencia del usuario y reduce la tasa de rebote."
 						motionDelay={.2}
 					/>
 					<ServiceCard
-						icon={<FaGamepad/>}
-						title="Desarrollo de Videojuegos"
-						description="Ofrezco servicios de desarrollo de videojuegos para convertir tus ideas en experiencias interactivas emocionantes y atractivas. Desde la conceptualización hasta la publicación, puedo ayudarte a crear juegos personalizados que cautiven a tu audiencia"
+						icon={<IoSettingsSharp/>}
+						title="Mantenimiento"
+						description="Ofresco servicios de mantenimiento y soporte para garantizar que los sitios web estén actualizados y funcionando correctamente. Esto implica corregir errores, solucionar problemas de compatibilidad, actualizar contenido y realizar mejoras funcionales según sea necesario"
 						motionDelay={.4}
 					/>
 				</div>
