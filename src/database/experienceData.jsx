@@ -1,4 +1,4 @@
-import { SiAstro, SiCsharp, SiTailwindcss } from "react-icons/si";
+import { SiAstro, SiCsharp, SiTailwindcss, SiTypescript } from "react-icons/si";
 import { SiFirebase , SiJavascript , SiBlender } from "react-icons/si";
 import {AiFillHtml5 , AiOutlineGithub} from "react-icons/ai";
 import {FaCss3Alt , FaReact} from "react-icons/fa";
@@ -18,9 +18,14 @@ export const experienceList = [
 	},
     {
 		icon: <SiJavascript/>,
-		title: "js",
+		title: "javascript",
 		custom: "text-amber-400",
 	},
+    {
+        icon : <SiTypescript/>,
+        title : "typescript",
+        custom : "text-blue-500",
+    },
     {
         icon : <FaReact/>,
         title : "react",
