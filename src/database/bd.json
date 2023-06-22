@@ -20,7 +20,7 @@
             {
                 "src" : "images/web/colors.webp",
                 "title" : "Wind Colors",
-                "descripcion" : "Pagina para crear , compartir y previzualisar paletas de colores",
+                "descripcion" : "Sitio web para crear , compartir y previzualisar paletas de colores",
                 "pageLink" : "https://wind-colors.web.app",
                 "skills" : ["react","tailwind","firebase"]
             },
