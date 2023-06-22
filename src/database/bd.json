@@ -2,6 +2,14 @@
     "portafolio" : {
         "web" : [
             {
+                "src" : "images/web/pixelscript.webp",
+                "title" : "Pixelscript Blog",
+                "descripcion" : "Mi blog personal donde comparto wallpapers de programacion",
+                "pageLink" : "https://numonu.github.io/pixelscript/",
+                "sourceLink" : "https://github.com/Numonu/pixelscript",
+                "skills" : ["astro","typescript","tailwind"]
+            },
+            {
                 "src" : "images/web/chat.webp",
                 "title" : "Round Chating",
                 "descripcion" : "Aplicacion de chat en tiempo real basado en salas",
@@ -39,15 +47,7 @@
                 "pageLink" : "https://numonu.github.io/nft-landing-page/",
                 "sourceLink" : "https://github.com/Numonu/nft-landing-page",
                 "skills" : ["astro","react","tailwind"]
-            },
-            {
-                "src" : "images/web/services.webp",
-                "title" : "Services Landing Page",
-                "descripcion" : "Landign page creada para un provedor de servicios",
-                "pageLink" : "https://numonu.github.io/services-landing-page/",
-                "sourceLink" : "https://github.com/Numonu/services-landing-page",
-                "skills" : ["astro","tailwind"]
-            }
+            }            
         ]
     }
 }
